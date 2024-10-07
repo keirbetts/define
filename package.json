@@ -10,6 +10,8 @@
     "@types/node": "^16.18.112",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",
+    "axios": "^1.7.7",
+    "cobertura": "^1.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -21,6 +23,20 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text",
+      "cobertura"
+    ],
+    "coveragePathIgnorePatterns": [
+      ".stories.",
+      "index.",
+      ".css"
+    ],
+    "moduleNameMapper": {
+      "axios": "axios/dist/node/axios.cjs"
+    }
   },
   "eslintConfig": {
     "extends": [

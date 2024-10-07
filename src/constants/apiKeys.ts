@@ -1,0 +1,1 @@
+export const DICTIONARY_API_KEY = "9ac6bea1-0721-4173-9b85-dd95f3b80586";

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Word /> renders successfully 1`] = `
+<div
+  class="word-wrapper"
+>
+  Define
+  <br />
+  <br />
+  <br />
+  <br />
+  <textarea
+    placeholder="Enter word definition..."
+  />
+  <br />
+  <br />
+  <button>
+    Submit guess
+  </button>
+</div>
+`;
